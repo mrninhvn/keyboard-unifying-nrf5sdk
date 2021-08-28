@@ -53,10 +53,10 @@ RM = /home/ninh/.local/lib/python3.7/site-packages/cmake/data/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Keyboard/goboard/firmware/main
+CMAKE_SOURCE_DIR = /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Keyboard/goboard/firmware/main/build
+CMAKE_BINARY_DIR = /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/goboard-main.dir/depend.make
@@ -72,141 +72,141 @@ include CMakeFiles/goboard-main.dir/flags.make
 CMakeFiles/goboard-main.dir/src/keys.c.obj: CMakeFiles/goboard-main.dir/flags.make
 CMakeFiles/goboard-main.dir/src/keys.c.obj: ../src/keys.c
 CMakeFiles/goboard-main.dir/src/keys.c.obj: CMakeFiles/goboard-main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Keyboard/goboard/firmware/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/goboard-main.dir/src/keys.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/goboard-main.dir/src/keys.c.obj -MF CMakeFiles/goboard-main.dir/src/keys.c.obj.d -o CMakeFiles/goboard-main.dir/src/keys.c.obj -c /mnt/d/Keyboard/goboard/firmware/main/src/keys.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/goboard-main.dir/src/keys.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/goboard-main.dir/src/keys.c.obj -MF CMakeFiles/goboard-main.dir/src/keys.c.obj.d -o CMakeFiles/goboard-main.dir/src/keys.c.obj -c /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/keys.c
 
 CMakeFiles/goboard-main.dir/src/keys.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/goboard-main.dir/src/keys.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Keyboard/goboard/firmware/main/src/keys.c > CMakeFiles/goboard-main.dir/src/keys.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/keys.c > CMakeFiles/goboard-main.dir/src/keys.c.i
 
 CMakeFiles/goboard-main.dir/src/keys.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/goboard-main.dir/src/keys.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Keyboard/goboard/firmware/main/src/keys.c -o CMakeFiles/goboard-main.dir/src/keys.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/keys.c -o CMakeFiles/goboard-main.dir/src/keys.c.s
 
 CMakeFiles/goboard-main.dir/src/main.c.obj: CMakeFiles/goboard-main.dir/flags.make
 CMakeFiles/goboard-main.dir/src/main.c.obj: ../src/main.c
 CMakeFiles/goboard-main.dir/src/main.c.obj: CMakeFiles/goboard-main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Keyboard/goboard/firmware/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/goboard-main.dir/src/main.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/goboard-main.dir/src/main.c.obj -MF CMakeFiles/goboard-main.dir/src/main.c.obj.d -o CMakeFiles/goboard-main.dir/src/main.c.obj -c /mnt/d/Keyboard/goboard/firmware/main/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/goboard-main.dir/src/main.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/goboard-main.dir/src/main.c.obj -MF CMakeFiles/goboard-main.dir/src/main.c.obj.d -o CMakeFiles/goboard-main.dir/src/main.c.obj -c /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/main.c
 
 CMakeFiles/goboard-main.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/goboard-main.dir/src/main.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Keyboard/goboard/firmware/main/src/main.c > CMakeFiles/goboard-main.dir/src/main.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/main.c > CMakeFiles/goboard-main.dir/src/main.c.i
 
 CMakeFiles/goboard-main.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/goboard-main.dir/src/main.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Keyboard/goboard/firmware/main/src/main.c -o CMakeFiles/goboard-main.dir/src/main.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/main.c -o CMakeFiles/goboard-main.dir/src/main.c.s
 
 CMakeFiles/goboard-main.dir/src/mode_led.c.obj: CMakeFiles/goboard-main.dir/flags.make
 CMakeFiles/goboard-main.dir/src/mode_led.c.obj: ../src/mode_led.c
 CMakeFiles/goboard-main.dir/src/mode_led.c.obj: CMakeFiles/goboard-main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Keyboard/goboard/firmware/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/goboard-main.dir/src/mode_led.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/goboard-main.dir/src/mode_led.c.obj -MF CMakeFiles/goboard-main.dir/src/mode_led.c.obj.d -o CMakeFiles/goboard-main.dir/src/mode_led.c.obj -c /mnt/d/Keyboard/goboard/firmware/main/src/mode_led.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/goboard-main.dir/src/mode_led.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/goboard-main.dir/src/mode_led.c.obj -MF CMakeFiles/goboard-main.dir/src/mode_led.c.obj.d -o CMakeFiles/goboard-main.dir/src/mode_led.c.obj -c /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/mode_led.c
 
 CMakeFiles/goboard-main.dir/src/mode_led.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/goboard-main.dir/src/mode_led.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Keyboard/goboard/firmware/main/src/mode_led.c > CMakeFiles/goboard-main.dir/src/mode_led.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/mode_led.c > CMakeFiles/goboard-main.dir/src/mode_led.c.i
 
 CMakeFiles/goboard-main.dir/src/mode_led.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/goboard-main.dir/src/mode_led.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Keyboard/goboard/firmware/main/src/mode_led.c -o CMakeFiles/goboard-main.dir/src/mode_led.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/mode_led.c -o CMakeFiles/goboard-main.dir/src/mode_led.c.s
 
 CMakeFiles/goboard-main.dir/src/mode_switch.c.obj: CMakeFiles/goboard-main.dir/flags.make
 CMakeFiles/goboard-main.dir/src/mode_switch.c.obj: ../src/mode_switch.c
 CMakeFiles/goboard-main.dir/src/mode_switch.c.obj: CMakeFiles/goboard-main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Keyboard/goboard/firmware/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/goboard-main.dir/src/mode_switch.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/goboard-main.dir/src/mode_switch.c.obj -MF CMakeFiles/goboard-main.dir/src/mode_switch.c.obj.d -o CMakeFiles/goboard-main.dir/src/mode_switch.c.obj -c /mnt/d/Keyboard/goboard/firmware/main/src/mode_switch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/goboard-main.dir/src/mode_switch.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/goboard-main.dir/src/mode_switch.c.obj -MF CMakeFiles/goboard-main.dir/src/mode_switch.c.obj.d -o CMakeFiles/goboard-main.dir/src/mode_switch.c.obj -c /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/mode_switch.c
 
 CMakeFiles/goboard-main.dir/src/mode_switch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/goboard-main.dir/src/mode_switch.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Keyboard/goboard/firmware/main/src/mode_switch.c > CMakeFiles/goboard-main.dir/src/mode_switch.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/mode_switch.c > CMakeFiles/goboard-main.dir/src/mode_switch.c.i
 
 CMakeFiles/goboard-main.dir/src/mode_switch.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/goboard-main.dir/src/mode_switch.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Keyboard/goboard/firmware/main/src/mode_switch.c -o CMakeFiles/goboard-main.dir/src/mode_switch.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/mode_switch.c -o CMakeFiles/goboard-main.dir/src/mode_switch.c.s
 
 CMakeFiles/goboard-main.dir/src/power_supply.c.obj: CMakeFiles/goboard-main.dir/flags.make
 CMakeFiles/goboard-main.dir/src/power_supply.c.obj: ../src/power_supply.c
 CMakeFiles/goboard-main.dir/src/power_supply.c.obj: CMakeFiles/goboard-main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Keyboard/goboard/firmware/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/goboard-main.dir/src/power_supply.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/goboard-main.dir/src/power_supply.c.obj -MF CMakeFiles/goboard-main.dir/src/power_supply.c.obj.d -o CMakeFiles/goboard-main.dir/src/power_supply.c.obj -c /mnt/d/Keyboard/goboard/firmware/main/src/power_supply.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/goboard-main.dir/src/power_supply.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/goboard-main.dir/src/power_supply.c.obj -MF CMakeFiles/goboard-main.dir/src/power_supply.c.obj.d -o CMakeFiles/goboard-main.dir/src/power_supply.c.obj -c /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/power_supply.c
 
 CMakeFiles/goboard-main.dir/src/power_supply.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/goboard-main.dir/src/power_supply.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Keyboard/goboard/firmware/main/src/power_supply.c > CMakeFiles/goboard-main.dir/src/power_supply.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/power_supply.c > CMakeFiles/goboard-main.dir/src/power_supply.c.i
 
 CMakeFiles/goboard-main.dir/src/power_supply.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/goboard-main.dir/src/power_supply.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Keyboard/goboard/firmware/main/src/power_supply.c -o CMakeFiles/goboard-main.dir/src/power_supply.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/power_supply.c -o CMakeFiles/goboard-main.dir/src/power_supply.c.s
 
 CMakeFiles/goboard-main.dir/src/unifying.c.obj: CMakeFiles/goboard-main.dir/flags.make
 CMakeFiles/goboard-main.dir/src/unifying.c.obj: ../src/unifying.c
 CMakeFiles/goboard-main.dir/src/unifying.c.obj: CMakeFiles/goboard-main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Keyboard/goboard/firmware/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/goboard-main.dir/src/unifying.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/goboard-main.dir/src/unifying.c.obj -MF CMakeFiles/goboard-main.dir/src/unifying.c.obj.d -o CMakeFiles/goboard-main.dir/src/unifying.c.obj -c /mnt/d/Keyboard/goboard/firmware/main/src/unifying.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/goboard-main.dir/src/unifying.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/goboard-main.dir/src/unifying.c.obj -MF CMakeFiles/goboard-main.dir/src/unifying.c.obj.d -o CMakeFiles/goboard-main.dir/src/unifying.c.obj -c /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/unifying.c
 
 CMakeFiles/goboard-main.dir/src/unifying.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/goboard-main.dir/src/unifying.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Keyboard/goboard/firmware/main/src/unifying.c > CMakeFiles/goboard-main.dir/src/unifying.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/unifying.c > CMakeFiles/goboard-main.dir/src/unifying.c.i
 
 CMakeFiles/goboard-main.dir/src/unifying.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/goboard-main.dir/src/unifying.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Keyboard/goboard/firmware/main/src/unifying.c -o CMakeFiles/goboard-main.dir/src/unifying.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/unifying.c -o CMakeFiles/goboard-main.dir/src/unifying.c.s
 
 CMakeFiles/goboard-main.dir/src/unifying_radio.c.obj: CMakeFiles/goboard-main.dir/flags.make
 CMakeFiles/goboard-main.dir/src/unifying_radio.c.obj: ../src/unifying_radio.c
 CMakeFiles/goboard-main.dir/src/unifying_radio.c.obj: CMakeFiles/goboard-main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Keyboard/goboard/firmware/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/goboard-main.dir/src/unifying_radio.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/goboard-main.dir/src/unifying_radio.c.obj -MF CMakeFiles/goboard-main.dir/src/unifying_radio.c.obj.d -o CMakeFiles/goboard-main.dir/src/unifying_radio.c.obj -c /mnt/d/Keyboard/goboard/firmware/main/src/unifying_radio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/goboard-main.dir/src/unifying_radio.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/goboard-main.dir/src/unifying_radio.c.obj -MF CMakeFiles/goboard-main.dir/src/unifying_radio.c.obj.d -o CMakeFiles/goboard-main.dir/src/unifying_radio.c.obj -c /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/unifying_radio.c
 
 CMakeFiles/goboard-main.dir/src/unifying_radio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/goboard-main.dir/src/unifying_radio.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Keyboard/goboard/firmware/main/src/unifying_radio.c > CMakeFiles/goboard-main.dir/src/unifying_radio.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/unifying_radio.c > CMakeFiles/goboard-main.dir/src/unifying_radio.c.i
 
 CMakeFiles/goboard-main.dir/src/unifying_radio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/goboard-main.dir/src/unifying_radio.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Keyboard/goboard/firmware/main/src/unifying_radio.c -o CMakeFiles/goboard-main.dir/src/unifying_radio.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/unifying_radio.c -o CMakeFiles/goboard-main.dir/src/unifying_radio.c.s
 
 CMakeFiles/goboard-main.dir/src/usb.c.obj: CMakeFiles/goboard-main.dir/flags.make
 CMakeFiles/goboard-main.dir/src/usb.c.obj: ../src/usb.c
 CMakeFiles/goboard-main.dir/src/usb.c.obj: CMakeFiles/goboard-main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Keyboard/goboard/firmware/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/goboard-main.dir/src/usb.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/goboard-main.dir/src/usb.c.obj -MF CMakeFiles/goboard-main.dir/src/usb.c.obj.d -o CMakeFiles/goboard-main.dir/src/usb.c.obj -c /mnt/d/Keyboard/goboard/firmware/main/src/usb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/goboard-main.dir/src/usb.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/goboard-main.dir/src/usb.c.obj -MF CMakeFiles/goboard-main.dir/src/usb.c.obj.d -o CMakeFiles/goboard-main.dir/src/usb.c.obj -c /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/usb.c
 
 CMakeFiles/goboard-main.dir/src/usb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/goboard-main.dir/src/usb.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Keyboard/goboard/firmware/main/src/usb.c > CMakeFiles/goboard-main.dir/src/usb.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/usb.c > CMakeFiles/goboard-main.dir/src/usb.c.i
 
 CMakeFiles/goboard-main.dir/src/usb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/goboard-main.dir/src/usb.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Keyboard/goboard/firmware/main/src/usb.c -o CMakeFiles/goboard-main.dir/src/usb.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/usb.c -o CMakeFiles/goboard-main.dir/src/usb.c.s
 
-CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.obj: CMakeFiles/goboard-main.dir/flags.make
-CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.obj: /mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Keyboard/goboard/firmware/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building ASM object CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.obj -c /mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S
+CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.obj: CMakeFiles/goboard-main.dir/flags.make
+CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.obj: /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building ASM object CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.obj -c /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S
 
-CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.i"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S > CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.i
+CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.i"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S > CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.i
 
-CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.s"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S -o CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.s
+CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.s"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S -o CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.s
 
-CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.obj: CMakeFiles/goboard-main.dir/flags.make
-CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.obj: /mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c
-CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.obj: CMakeFiles/goboard-main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Keyboard/goboard/firmware/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.obj -MF CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.obj.d -o CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.obj -c /mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c
+CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.obj: CMakeFiles/goboard-main.dir/flags.make
+CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.obj: /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c
+CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.obj: CMakeFiles/goboard-main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.obj -MF CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.obj.d -o CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.obj -c /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c
 
-CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c > CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.i
+CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c > CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.i
 
-CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c -o CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.s
+CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c -o CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.s
 
 # Object files for target goboard-main
 goboard__main_OBJECTS = \
@@ -218,8 +218,8 @@ goboard__main_OBJECTS = \
 "CMakeFiles/goboard-main.dir/src/unifying.c.obj" \
 "CMakeFiles/goboard-main.dir/src/unifying_radio.c.obj" \
 "CMakeFiles/goboard-main.dir/src/usb.c.obj" \
-"CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.obj" \
-"CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.obj"
+"CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.obj" \
+"CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.obj"
 
 # External object files for target goboard-main
 goboard__main_EXTERNAL_OBJECTS =
@@ -232,12 +232,12 @@ goboard-main: CMakeFiles/goboard-main.dir/src/power_supply.c.obj
 goboard-main: CMakeFiles/goboard-main.dir/src/unifying.c.obj
 goboard-main: CMakeFiles/goboard-main.dir/src/unifying_radio.c.obj
 goboard-main: CMakeFiles/goboard-main.dir/src/usb.c.obj
-goboard-main: CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.obj
-goboard-main: CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.obj
+goboard-main: CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.obj
+goboard-main: CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.obj
 goboard-main: CMakeFiles/goboard-main.dir/build.make
 goboard-main: libnrf52_sdk.a
 goboard-main: CMakeFiles/goboard-main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Keyboard/goboard/firmware/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable goboard-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable goboard-main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/goboard-main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -249,6 +249,6 @@ CMakeFiles/goboard-main.dir/clean:
 .PHONY : CMakeFiles/goboard-main.dir/clean
 
 CMakeFiles/goboard-main.dir/depend:
-	cd /mnt/d/Keyboard/goboard/firmware/main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Keyboard/goboard/firmware/main /mnt/d/Keyboard/goboard/firmware/main /mnt/d/Keyboard/goboard/firmware/main/build /mnt/d/Keyboard/goboard/firmware/main/build /mnt/d/Keyboard/goboard/firmware/main/build/CMakeFiles/goboard-main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/build /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/build /mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/build/CMakeFiles/goboard-main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/goboard-main.dir/depend
 

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S" "/mnt/d/Keyboard/goboard/firmware/main/build/CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.obj"
+  "/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S" "/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/build/CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -84,20 +84,20 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c" "CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.obj" "gcc" "CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.obj.d"
-  "/mnt/d/Keyboard/goboard/firmware/main/src/keys.c" "CMakeFiles/goboard-main.dir/src/keys.c.obj" "gcc" "CMakeFiles/goboard-main.dir/src/keys.c.obj.d"
-  "/mnt/d/Keyboard/goboard/firmware/main/src/main.c" "CMakeFiles/goboard-main.dir/src/main.c.obj" "gcc" "CMakeFiles/goboard-main.dir/src/main.c.obj.d"
-  "/mnt/d/Keyboard/goboard/firmware/main/src/mode_led.c" "CMakeFiles/goboard-main.dir/src/mode_led.c.obj" "gcc" "CMakeFiles/goboard-main.dir/src/mode_led.c.obj.d"
-  "/mnt/d/Keyboard/goboard/firmware/main/src/mode_switch.c" "CMakeFiles/goboard-main.dir/src/mode_switch.c.obj" "gcc" "CMakeFiles/goboard-main.dir/src/mode_switch.c.obj.d"
-  "/mnt/d/Keyboard/goboard/firmware/main/src/power_supply.c" "CMakeFiles/goboard-main.dir/src/power_supply.c.obj" "gcc" "CMakeFiles/goboard-main.dir/src/power_supply.c.obj.d"
-  "/mnt/d/Keyboard/goboard/firmware/main/src/unifying.c" "CMakeFiles/goboard-main.dir/src/unifying.c.obj" "gcc" "CMakeFiles/goboard-main.dir/src/unifying.c.obj.d"
-  "/mnt/d/Keyboard/goboard/firmware/main/src/unifying_radio.c" "CMakeFiles/goboard-main.dir/src/unifying_radio.c.obj" "gcc" "CMakeFiles/goboard-main.dir/src/unifying_radio.c.obj.d"
-  "/mnt/d/Keyboard/goboard/firmware/main/src/usb.c" "CMakeFiles/goboard-main.dir/src/usb.c.obj" "gcc" "CMakeFiles/goboard-main.dir/src/usb.c.obj.d"
+  "/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c" "CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.obj" "gcc" "CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.obj.d"
+  "/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/keys.c" "CMakeFiles/goboard-main.dir/src/keys.c.obj" "gcc" "CMakeFiles/goboard-main.dir/src/keys.c.obj.d"
+  "/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/main.c" "CMakeFiles/goboard-main.dir/src/main.c.obj" "gcc" "CMakeFiles/goboard-main.dir/src/main.c.obj.d"
+  "/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/mode_led.c" "CMakeFiles/goboard-main.dir/src/mode_led.c.obj" "gcc" "CMakeFiles/goboard-main.dir/src/mode_led.c.obj.d"
+  "/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/mode_switch.c" "CMakeFiles/goboard-main.dir/src/mode_switch.c.obj" "gcc" "CMakeFiles/goboard-main.dir/src/mode_switch.c.obj.d"
+  "/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/power_supply.c" "CMakeFiles/goboard-main.dir/src/power_supply.c.obj" "gcc" "CMakeFiles/goboard-main.dir/src/power_supply.c.obj.d"
+  "/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/unifying.c" "CMakeFiles/goboard-main.dir/src/unifying.c.obj" "gcc" "CMakeFiles/goboard-main.dir/src/unifying.c.obj.d"
+  "/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/unifying_radio.c" "CMakeFiles/goboard-main.dir/src/unifying_radio.c.obj" "gcc" "CMakeFiles/goboard-main.dir/src/unifying_radio.c.obj.d"
+  "/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/src/usb.c" "CMakeFiles/goboard-main.dir/src/usb.c.obj" "gcc" "CMakeFiles/goboard-main.dir/src/usb.c.obj.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/mnt/d/Keyboard/goboard/firmware/main/build/CMakeFiles/nrf52_sdk.dir/DependInfo.cmake"
+  "/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/build/CMakeFiles/nrf52_sdk.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

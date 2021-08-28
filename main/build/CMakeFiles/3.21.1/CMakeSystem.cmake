@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Linux")
 set(CMAKE_HOST_SYSTEM_VERSION "4.4.0-19041-Microsoft")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/mnt/d/Keyboard/goboard/firmware/main/Toolchain.cmake")
+include("/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/main/Toolchain.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

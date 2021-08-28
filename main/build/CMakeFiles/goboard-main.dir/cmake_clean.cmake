@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.obj"
-  "CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.obj"
-  "CMakeFiles/goboard-main.dir/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.obj.d"
+  "CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S.obj"
+  "CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.obj"
+  "CMakeFiles/goboard-main.dir/mnt/d/Keyboard/keyboard-unifying-nrf5-sdk/3rdparty/nrf5-sdk/modules/nrfx/mdk/system_nrf52840.c.obj.d"
   "CMakeFiles/goboard-main.dir/src/keys.c.obj"
   "CMakeFiles/goboard-main.dir/src/keys.c.obj.d"
   "CMakeFiles/goboard-main.dir/src/main.c.obj"

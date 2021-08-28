@@ -24,6 +24,8 @@ arm-none-eabi-size goboard-main
 arm-none-eabi-objcopy -O ihex goboard-main goboard-main.hex
 
 # NOTE: use "uf2conv.py goboard-main.hex -c -f 0xADA52840" to generate an UF2 file
+# cd ..
+# python uf2conv.py build/goboard-main.hex -c -f 0xADA52840
 # adafruit-nrfutil dfu genpkg --dev-type 0x0052 --application goboard-main.hex goboard-main.zip
 
 # NOTE: use the following command to flash via the adafruit DFU bootloader
