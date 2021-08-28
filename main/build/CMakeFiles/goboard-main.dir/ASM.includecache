@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/gcc_startup_nrf52840.S
+startup_config.h
+/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/startup_config.h
+
+/mnt/d/Keyboard/goboard/firmware/3rdparty/nrf5-sdk/modules/nrfx/mdk/startup_config.h
+

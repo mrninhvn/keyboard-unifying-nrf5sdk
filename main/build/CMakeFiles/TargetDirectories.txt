@@ -1,0 +1,4 @@
+/mnt/d/Keyboard/goboard/firmware/main/build/CMakeFiles/edit_cache.dir
+/mnt/d/Keyboard/goboard/firmware/main/build/CMakeFiles/rebuild_cache.dir
+/mnt/d/Keyboard/goboard/firmware/main/build/CMakeFiles/goboard-main.dir
+/mnt/d/Keyboard/goboard/firmware/main/build/CMakeFiles/nrf52_sdk.dir
